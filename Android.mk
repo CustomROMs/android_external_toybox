@@ -278,8 +278,6 @@ ALL_TOOLS := \
     getenforce \
     getprop \
     groups \
-    gunzip \
-    gzip \
     head \
     hostname \
     hwclock \
@@ -328,7 +326,6 @@ ALL_TOOLS := \
     pmap \
     printenv \
     printf \
-    ps \
     pwd \
     readlink \
     realpath \
@@ -389,10 +386,13 @@ ALL_TOOLS := \
     xargs \
     xxd \
     yes \
-    zcat \
 
 ALL_RECOVERY_TOOLS := \
     $(ALL_TOOLS) \
+    ps \
+    gzip \
+    gunzip \
+    zcat \
     dd \
     grep
 
